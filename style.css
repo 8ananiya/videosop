@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+  
+  /* Animation */
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn; 
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Additional Styles */
+  /* style.css */
+
+/* CSS styles for animations, layout, etc */
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn; 
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Layout */
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+  }
+  
+  nav {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .profile-pic {
+    width: 50px; 
+    border-radius: 50%;
+  }
+  
+  /* Form styles */
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: blue; 
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  /* Movie styles */
+  
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .movie img {
+    width: 200px;
+  }
